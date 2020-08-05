@@ -1,0 +1,199 @@
+body {
+    background-color: #f4f5f6;;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+.black {
+    color: black;
+}
+
+
+.grey {
+    color: gray;
+}
+
+.white {
+    color: white;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-light-gray {
+    background-color: #f4f5f6;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.small-font h5 {
+    font-size: 14px;
+}
+
+.subscribe-btn {
+    background-color: #ffe400;
+    border-radius: 24px;
+    font-size: 13px;
+    line-height: 14px;
+    padding: 4px 7px;
+    max-width: 150px;
+    border: none;
+    font-weight: 700;
+}
+
+.img-fluid {
+    max-width: 30%;
+}
+
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    color: var(--red);
+    font-family: var(--roboto);
+    font-weight: 700;
+    text-align: center;
+}
+
+.news {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+.searchInput {
+    width: 60px;
+    border: none;
+}
+
+.debate-top {
+    border-top: 4px solid grey;
+    border-bottom:3px double grey;
+}
+
+.debate-bottom {
+    border-bottom: 4px solid grey;
+}
+
+.imgProfile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+h6.debate-header {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+h6.debate-header strong {
+    color: grey;
+    text-transform: uppercase;
+}
+
+h5.features_header {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.vs-button {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    padding: 5px 8px;
+}
+
+.signUpContainer {
+    background-color: #f4f5f6;
+    border: 1px solid #e5e5e5;
+}
+
+.signUpContainer h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.mini-logo {
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    margin: 0 5px;
+}
+
+.signUpBtn {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.topic1 {
+    background-color: red;
+    padding: 3px;
+    max-width: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.topic2 {
+    padding: 3px 0 3px 6px;
+    font-weight: 700;
+    float: left;
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+
+.topicHeader {
+    color: red;
+    font-weight: 700;
+    margin: 0;
+    font-size: 22px;
+}
+
+.magazine:first-child {
+    width: 178px;
+    height: 228px;
+}
+
+.magazine:last-child {
+    position: absolute;
+    right: -7px;
+    top: 13px;
+    width: 178px;
+    height: 228px;
+}
+
+
+@media (min-width: 992px){
+    nav:nth-child(1){
+        clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 96% 100%, 94% 90%, 0 90%, 0% 70%, 0% 35%, 0 0);
+    }
+    
+}
